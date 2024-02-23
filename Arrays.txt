@@ -1,0 +1,15 @@
+Arrays:
+Arrays in JavaScript are used to store multiple values in a single variable.
+// Array declaration
+let fruits = ["Apple", "Banana", "Orange"];
+
+// Accessing array elements
+console.log(fruits[0]); // Output: Apple
+
+// Adding elements
+fruits.push("Mango");
+
+// Iterating through array
+fruits.forEach(function(fruit) {
+    console.log(fruit);
+});

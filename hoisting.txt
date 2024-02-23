@@ -1,0 +1,24 @@
+// Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope during the compilation phase. This means that regardless of where functions and variables are declared, they are always available within the scope in which they are defined.
+
+
+// Function declaration
+console.log(myFunction()); // Outputs "HI Every One"
+
+function myFunction() {
+  return "HI every One";
+}
+
+console.log(myVar); // Outputs "undefined"
+
+var myVar = 5;
+
+
+
+console.log(x); // undefined
+var x = 25;
+
+console.log(y); // ReferenceError: Cannot access 'y' before initialization
+let y = 10;
+
+console.log(z); // ReferenceError: Cannot access 'z' before initialization
+const z = 15;

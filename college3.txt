@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        
+        
+        
+        .logo {
+            margin-left: 5%;
+            font-size: 30px;
+            line-height: 60px;
+            color:white;
+            position: absolute;
+            left:63px;
+        }
+        
+        h1 {
+            color: red;
+            
+        }
+        
+
+        
+
+        .logo::first-letter {
+            font-size: larger;
+            color: red;
+        }
+        
+        
+        
+      
+      
+        
+
+        
+        
+        
+        
+
+       
+       
+        
+        
+        
+       
+
+        
+       
+        
+        
+       
+       
+        
+       
+        a {
+            text-decoration: none;
+        }
+        
+       
+        * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: montserrat;
+    }
+    nav {
+      background: orange;
+      height: 80px;
+      width: 100%;
+    }
+    label.logo {
+      color: black;
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+      font-family: 'Abril Fatface', serif;
+    }
+    nav ul {
+      float: right;
+      margin-right: 20px;
+    }
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+    }
+    nav ul li a {
+      color: black;
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    a.active, a:hover {
+      background:rgb(41, 240, 84);
+      transition: .5s;
+    }
+    #check {
+      display: none;
+    }
+
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+    
+    @media (max-width: 800px) {
+        
+        .data a:hover{
+            text-decoration: none;
+            color:black;
+        }
+       
+      
+
+
+       
+        
+      nav ul li a {
+        font-size: 16px;
+      }
+      ul {
+       margin-top: 90px;
+        width: 100%;
+        height: 350px;
+        background: white;
+        top: 10px;
+        position: relative;
+        left: 0; 
+        text-align: center;
+        justify-content: center;
+        transition: all .5s;
+        margin-bottom: 100px;
+      }
+      nav ul li {
+        display: block;
+        margin: 20px 0; 
+        line-height: 30px;
+      }
+      nav ul li a {
+        font-size: 20px;
+        text-decoration: none;
+        color:white;
+      }
+      a:hover, a.active {
+        background: none;
+        color: rgb(247, 29, 218);
+      }
+
+
+      
+   
+    
+    
+   
+    
+
+    }
+    
+
+    
+   
+  
+  
+ 
+
+.staffdetails{
+    margin-top:100px;
+    
+   
+}
+.otherdetails{
+    margin-bottom: 0px;
+   
+}
+.box-1{
+    border: 3px solid black;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:150px;
+}
+.data-1{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: #008cff;
+    height: 20px;
+}
+    
+   .back{
+    background-color: #008cff;
+    font-size: large;
+    color: white;
+    padding: 7px;
+   }
+   .back:hover{
+    background-color: #bfff00;
+    text-decoration: none;
+   }
+        
+    </style>    
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label class="logo">Smart School</label>
+        <div class="ul data">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#Payments">PAYMENTS</a></li>
+                <li><a href="#Products">PRODUCTS</a></li>
+                <li><a href="#Contactus">CONTACT US</a></li>
+                <li><a href="#social">Social Links</a></li>
+                 <li><a href="dashboard3.html">Dashboard</a></li>
+                
+              </ul>
+        </div>
+      </nav>
+    
+
+    <div style="padding: 20px;">
+        <div class="staffdetails">
+        <a href="#" class="back">BACK</a>
+        <a.<span style="color: #008cff; margin-left: 30px; font-size: large;">Enroll Now</span>
+        <center><h1>Branch :B.Tech college</h1></center>
+        <div style="background-color: #b8e73f; height: 40px;line-height: 40px;"><b>Staff Details</b></div>
+        <div class="box-1">
+            <div class="data-1">
+                <label for="">Employment status</label>
+                <select name="" id="">
+                    <option value="Temporary">Temporary</option>
+                    <option value="Permanent">Permanent</option>
+                    <option value="Contractual">Contractual</option>
+                    <option value="Probationary">Probationary</option>
+                    <option value="Intern">Intern</option>
+                </select>
+            </div>
+
+            <div class="data-1">
+                <label for="">Staff type</label><br>
+                <div style="display: flex; gap: 10px; width: 200px;" >
+                    <input type="radio" name="staffType" value="teaching">
+                    <label for="">Teaching</label>
+                    <input type="radio" name="staffType" value="nonteaching">
+                    <label for="">Non Teaching</label>
+                    <input type="radio" name="staffType" value="transport">
+                    <label for="">Transport</label>
+                </div>
+                
+            </div>
+
+            <div class="data-1">
+                <label for="">Staff data</label>
+                <select name="" id="">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Transgender">Transgender</option>
+                </select>
+            </div>
+
+
+            <div class="data-1">
+                <label for="">Employment category</label>
+                <select name="" id="">
+                    <option value="Teaching">Teaching</option>
+                    <option value="Non-Teaching">Non-Teaching</option>
+                    <option value="Administrative">Administrative</option>
+                    <option value="Support Staff">Support Staff</option>
+                    <option value="Auxiliary Staff">Auxiliary Staff</option>
+                </select>
+            </div>
+
+            <div class="data-1">
+                <label for="">Designation</label>
+                <select name="" id="">
+                    <option value="Assistant Professor">Assistant Professor</option>
+                    <option value="Associate Professor">Associate Professor</option>
+                    <option value="Professor">Professor</option>
+                    <option value="Principal">Principal</option>
+                    <option value="Head of Department">Head of Department</option>
+                </select>
+            </div>
+
+
+            <div class="data-1">
+                <label for="">Date of Birth</label>
+                <input type="date" name="dob">
+            </div>
+            
+        </div>
+        
+
+   
+
+
+
+   <div class="otherdetails">
+   
+    <div style="background-color: #b8e73f; height: 40px;line-height: 40px;"><b>Staff Details</b></div>
+    <div class="box-1">
+        <div class="data-1">
+            <label for="">Employment status</label>
+            <select name="" id="">
+                <option value="Temporary">Temporary</option>
+                <option value="Permanent">Permanent</option>
+                <option value="Contractual">Contractual</option>
+                <option value="Probationary">Probationary</option>
+                <option value="Intern">Intern</option>
+            </select>
+        </div>
+
+        <div class="data-1">
+            <label for="">Staff type</label><br>
+            <div style="display: flex; gap: 10px; width: 200px;" >
+                <input type="radio" name="staffType" value="teaching">
+                <label for="">Teaching</label>
+                <input type="radio" name="staffType" value="nonteaching">
+                <label for="">Non Teaching</label>
+                <input type="radio" name="staffType" value="transport">
+                <label for="">Transport</label>
+            </div>
+            
+        </div>
+
+        <div class="data-1">
+            <label for="">Staff data</label>
+            <select name="" id="">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+            </select>
+        </div>
+
+
+        <div class="data-1">
+            <label for="">Employment category</label>
+            <select name="" id="">
+                <option value="Teaching">Teaching</option>
+                <option value="Non-Teaching">Non-Teaching</option>
+                <option value="Administrative">Administrative</option>
+                <option value="Support Staff">Support Staff</option>
+                <option value="Auxiliary Staff">Auxiliary Staff</option>
+            </select>
+        </div>
+
+        <div class="data-1">
+            <label for="">Designation</label>
+            <select name="" id="">
+                <option value="Assistant Professor">Assistant Professor</option>
+                <option value="Associate Professor">Associate Professor</option>
+                <option value="Professor">Professor</option>
+                <option value="Principal">Principal</option>
+                <option value="Head of Department">Head of Department</option>
+            </select>
+        </div>
+
+
+        <div class="data-1">
+            <label for="">Date of Birth</label>
+            <input type="date" name="dob">
+        </div>
+        
+    </div>
+
+
+    <div class="otherdetails">
+   
+        <div style="background-color: #b8e73f; height: 40px;line-height: 40px;"><b>Staff Details</b></div>
+        <div class="box-1">
+            <div class="data-1">
+                <label for="">Employment status</label>
+                <select name="" id="">
+                    <option value="Temporary">Temporary</option>
+                    <option value="Permanent">Permanent</option>
+                    <option value="Contractual">Contractual</option>
+                    <option value="Probationary">Probationary</option>
+                    <option value="Intern">Intern</option>
+                </select>
+            </div>
+    
+            <div class="data-1">
+                <label for="">Staff type</label><br>
+                <div style="display: flex; gap: 10px; width: 200px;" >
+                    <input type="radio" name="staffType" value="teaching">
+                    <label for="">Teaching</label>
+                    <input type="radio" name="staffType" value="nonteaching">
+                    <label for="">Non Teaching</label>
+                    <input type="radio" name="staffType" value="transport">
+                    <label for="">Transport</label>
+                </div>
+                
+            </div>
+    
+            <div class="data-1">
+                <label for="">Staff data</label>
+                <select name="" id="">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Transgender">Transgender</option>
+                </select>
+            </div>
+    
+    
+            <div class="data-1">
+                <label for="">Employment category</label>
+                <select name="" id="">
+                    <option value="Teaching">Teaching</option>
+                    <option value="Non-Teaching">Non-Teaching</option>
+                    <option value="Administrative">Administrative</option>
+                    <option value="Support Staff">Support Staff</option>
+                    <option value="Auxiliary Staff">Auxiliary Staff</option>
+                </select>
+            </div>
+    
+            <div class="data-1">
+                <label for="">Designation</label>
+                <select name="" id="">
+                    <option value="Assistant Professor">Assistant Professor</option>
+                    <option value="Associate Professor">Associate Professor</option>
+                    <option value="Professor">Professor</option>
+                    <option value="Principal">Principal</option>
+                    <option value="Head of Department">Head of Department</option>
+                </select>
+            </div>
+    
+    
+            <div class="data-1">
+                <label for="">Date of Birth</label>
+                <input type="date" name="dob">
+            </div>
+            
+        </div>
+        
+    
+
+</div>
+</div>
+   
+</body>
+</html>
+

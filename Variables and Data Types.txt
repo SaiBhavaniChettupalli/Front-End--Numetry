@@ -1,0 +1,14 @@
+Variables and Data Types:
+JavaScript has dynamic typing, meaning you don't need to specify the data type of a variable explicitly. Here's how you declare variables and some common data types:
+// Variable declaration
+let myVariable;
+
+// Assigning value
+myVariable = 10;
+
+// Data types
+let numberVariable = 10; // Number
+let stringVariable = "Hello"; // String
+let booleanVariable = true; // Boolean
+let arrayVariable = [1, 2, 3]; // Array
+let objectVariable = { name: "John", age: 30 }; // Object

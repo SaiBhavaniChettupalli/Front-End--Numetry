@@ -1,0 +1,48 @@
+// A closure is a feature in JavaScript that allows a function to access variables from an outer (enclosing) function's scope, even after the outer function has finished executing. A closure is formed when a function is defined inside another function, and the inner function captures variables from the outer function's scope, preserving their values.
+function outer() {
+    let x = 2024;
+    function inner() {
+        console.log(x); // 2024
+    }
+    inner();
+}
+
+outer();
+
+
+function createCounter() {
+    let count = 0;
+    return function() {
+        count++;
+        console.log(count);
+    };
+}
+
+let counter = createCounter();
+counter(); // Output: 1
+counter(); // Output: 2
+counter(); // Output: 3
+
+
+function createPerson(name, age) {
+    let _name = name; // Encapsulated variable
+    let _age = age; // Encapsulated variable
+
+    function getDetails() { // Encapsulated method
+        return `@{_name} is @{_age} years old`;
+    }
+
+    function updateAge(newAge) { // Encapsulated method
+        _age = newAge;
+    }
+
+    return {
+        getDetails,
+        updateAge
+    };
+}
+
+let person = createPerson("John", 30);
+console.log(person.getDetails()); // Output: "John is 30 years old"
+person.updateAge(31);
+console.log(person.getDetails()); // Output: "John is 31 years old"

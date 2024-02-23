@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .user-info img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .settings {
+            margin-bottom: 20px;
+        }
+        .settings input[type="password"], .settings input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        .settings input[type="submit"] {
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .logout {
+            background-color: #f44336;
+            padding: 10px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="user-info">
+            <img src="C:\Users\chett\OneDrive\Documents\ima\frontend\gate2.jpeg" alt="User Photo">
+            <span id="user-name">Chettupalli Venkata Naga Sai Bhavani</span>
+        </div>
+        <div class="settings">
+            <h2>Settings</h2>
+            <form id="change-password-form">
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                <input type="submit" value="Change Password">
+            </form>
+            <form id="change-email-form">
+                <label for="new-email">New Email:</label>
+                <input type="email" id="new-email" name="new-email">
+                <input type="submit" value="Change Email">
+            </form>
+        </div>
+        <button class="logout">Logout</button>
+    </div>
+
+    <script>
+        const changePasswordForm = document.getElementById('change-password-form');
+        const changeEmailForm = document.getElementById('change-email-form');
+        const logoutButton = document.querySelector('.logout');
+
+        changePasswordForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const newPassword = document.getElementById('new-password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+
+            if (newPassword !== confirmPassword) {
+                alert('Passwords do not match');
+            } else {
+                alert('Password changed successfully');
+                
+            }
+        });
+
+        changeEmailForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const newEmail = document.getElementById('new-email').value;
+            alert('Email changed successfully');
+           
+        });
+
+        logoutButton.addEventListener('click', function() {
+          alert('LOGOUT   Successfully');
+        });
+    </script>
+</body>
+</html>

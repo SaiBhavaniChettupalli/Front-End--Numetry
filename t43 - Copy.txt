@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cards and Testimonials</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: Orange;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 10px;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .testimonial {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .testimonial img {
+            width: 150px;
+            height: 150px;
+            border-radius: 150%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="math.jpeg" alt="Card Image">
+            <div class="card-content">
+                <h3>Features</h3>
+                <p>RAJESH VERMA Fast Track Objective Arithmetic RBI, SBI, IBPS PO, SSC, LIC, CDS, UPSC, Hotel Management, Multitasking and all other Entrance Examination With Quick Revision Math glossary Book </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="apple.Png" alt="Card Image">
+            <div class="card-content">
+                <h3>Features</h3>
+                <p>Apple's latest consumer flagship iPhone lineup with USB-C, Dynamic Island, and more</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="jewellery.jpg" alt="Card Image">
+            <div class="card-content">
+                <h3>Features</h3>
+                <p> Malabar Gold & Diamonds Tushi 22k (916) Purity BIS hallmark certified Yellow Gold Necklace for women</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <img src="nu.jpeg" alt="User Image">
+        <p>"we providing a brand new electronics goods, brand new jewelry collection with all types of varieties, bulk of book collections with various authors collections"</p>
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+Event Handling:
+Event handling in JavaScript allows you to respond to user actions like clicks, keypresses, etc.
+<!-- HTML -->
+<button id="myButton">Click Me</button>
+
+<script>
+    // JavaScript
+    document.getElementById("myButton").addEventListener("click", function() {
+        console.log("Button clicked!");
+    });
+</script>
